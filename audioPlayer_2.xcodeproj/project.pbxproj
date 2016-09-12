@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2590B431D8124DF0096047E /* ICESongVO.m in Sources */ = {isa = PBXBuildFile; fileRef = A2590B421D8124DF0096047E /* ICESongVO.m */; };
+		A2EA19E01D80F02D0054525F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EA19DF1D80F02D0054525F /* main.m */; };
+		A2EA19E31D80F02D0054525F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EA19E21D80F02D0054525F /* AppDelegate.m */; };
+		A2EA19E61D80F02D0054525F /* ICEPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EA19E51D80F02D0054525F /* ICEPlayViewController.m */; };
+		A2EA19E91D80F02D0054525F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2EA19E71D80F02D0054525F /* Main.storyboard */; };
+		A2EA19EB1D80F02D0054525F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2EA19EA1D80F02D0054525F /* Assets.xcassets */; };
+		A2EA19EE1D80F02D0054525F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2EA19EC1D80F02D0054525F /* LaunchScreen.storyboard */; };
+		A2EA19F91D80F02D0054525F /* audioPlayer_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EA19F81D80F02D0054525F /* audioPlayer_2Tests.m */; };
+		A2EA1A041D80F02D0054525F /* audioPlayer_2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EA1A031D80F02D0054525F /* audioPlayer_2UITests.m */; };
+		A2EA22A21D824B9900A2C14B /* CDSideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EA22A11D824B9900A2C14B /* CDSideBarController.m */; };
+		A2EA22A51D824EDD00A2C14B /* ICEsideTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EA22A41D824EDD00A2C14B /* ICEsideTabBarController.m */; };
+		A2EA22A81D824FFE00A2C14B /* ICEChannelListController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EA22A71D824FFE00A2C14B /* ICEChannelListController.m */; };
+		A2EA22AB1D8277E400A2C14B /* ICEStyleVO.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EA22AA1D8277E400A2C14B /* ICEStyleVO.m */; };
+		E90176CFC12435C056330BAF /* libPods-audioPlayer_2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8310BF8BE1A7E0F3B852AA85 /* libPods-audioPlayer_2.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2EA19F51D80F02D0054525F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2EA19D31D80F02D0054525F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2EA19DA1D80F02D0054525F;
+			remoteInfo = audioPlayer_2;
+		};
+		A2EA1A001D80F02D0054525F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2EA19D31D80F02D0054525F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2EA19DA1D80F02D0054525F;
+			remoteInfo = audioPlayer_2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8310BF8BE1A7E0F3B852AA85 /* libPods-audioPlayer_2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-audioPlayer_2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2590B411D8124DF0096047E /* ICESongVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICESongVO.h; sourceTree = "<group>"; };
+		A2590B421D8124DF0096047E /* ICESongVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICESongVO.m; sourceTree = "<group>"; };
+		A2EA19DB1D80F02D0054525F /* audioPlayer_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = audioPlayer_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2EA19DF1D80F02D0054525F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2EA19E11D80F02D0054525F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2EA19E21D80F02D0054525F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2EA19E41D80F02D0054525F /* ICEPlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ICEPlayViewController.h; path = ../ICEPlayViewController.h; sourceTree = "<group>"; };
+		A2EA19E51D80F02D0054525F /* ICEPlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ICEPlayViewController.m; path = ../ICEPlayViewController.m; sourceTree = "<group>"; };
+		A2EA19E81D80F02D0054525F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2EA19EA1D80F02D0054525F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2EA19ED1D80F02D0054525F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2EA19EF1D80F02D0054525F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2EA19F41D80F02D0054525F /* audioPlayer_2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = audioPlayer_2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2EA19F81D80F02D0054525F /* audioPlayer_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = audioPlayer_2Tests.m; sourceTree = "<group>"; };
+		A2EA19FA1D80F02D0054525F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2EA19FF1D80F02D0054525F /* audioPlayer_2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = audioPlayer_2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2EA1A031D80F02D0054525F /* audioPlayer_2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = audioPlayer_2UITests.m; sourceTree = "<group>"; };
+		A2EA1A051D80F02D0054525F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2EA22A01D824B9900A2C14B /* CDSideBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDSideBarController.h; sourceTree = "<group>"; };
+		A2EA22A11D824B9900A2C14B /* CDSideBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDSideBarController.m; sourceTree = "<group>"; };
+		A2EA22A31D824EDD00A2C14B /* ICEsideTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICEsideTabBarController.h; sourceTree = "<group>"; };
+		A2EA22A41D824EDD00A2C14B /* ICEsideTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICEsideTabBarController.m; sourceTree = "<group>"; };
+		A2EA22A61D824FFE00A2C14B /* ICEChannelListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICEChannelListController.h; sourceTree = "<group>"; };
+		A2EA22A71D824FFE00A2C14B /* ICEChannelListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICEChannelListController.m; sourceTree = "<group>"; };
+		A2EA22A91D8277E400A2C14B /* ICEStyleVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICEStyleVO.h; sourceTree = "<group>"; };
+		A2EA22AA1D8277E400A2C14B /* ICEStyleVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICEStyleVO.m; sourceTree = "<group>"; };
+		A648B20B64288785A5FF1677 /* Pods-audioPlayer_2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-audioPlayer_2.release.xcconfig"; path = "Pods/Target Support Files/Pods-audioPlayer_2/Pods-audioPlayer_2.release.xcconfig"; sourceTree = "<group>"; };
+		B18E613B798B54FA72017E41 /* Pods-audioPlayer_2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-audioPlayer_2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-audioPlayer_2/Pods-audioPlayer_2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2EA19D81D80F02D0054525F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90176CFC12435C056330BAF /* libPods-audioPlayer_2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EA19F11D80F02D0054525F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EA19FC1D80F02D0054525F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D9EC52627AC6BBD894D5AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8310BF8BE1A7E0F3B852AA85 /* libPods-audioPlayer_2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E6818021E3F5AC27D3854EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B18E613B798B54FA72017E41 /* Pods-audioPlayer_2.debug.xcconfig */,
+				A648B20B64288785A5FF1677 /* Pods-audioPlayer_2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2590B3E1D8124870096047E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2EA22A31D824EDD00A2C14B /* ICEsideTabBarController.h */,
+				A2EA22A41D824EDD00A2C14B /* ICEsideTabBarController.m */,
+				A2EA19E41D80F02D0054525F /* ICEPlayViewController.h */,
+				A2EA19E51D80F02D0054525F /* ICEPlayViewController.m */,
+				A2EA22A61D824FFE00A2C14B /* ICEChannelListController.h */,
+				A2EA22A71D824FFE00A2C14B /* ICEChannelListController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A2590B3F1D8124870096047E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2590B411D8124DF0096047E /* ICESongVO.h */,
+				A2590B421D8124DF0096047E /* ICESongVO.m */,
+				A2EA22A91D8277E400A2C14B /* ICEStyleVO.h */,
+				A2EA22AA1D8277E400A2C14B /* ICEStyleVO.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2590B401D8124870096047E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A2EA19D21D80F02D0054525F = {
+			isa = PBXGroup;
+			children = (
+				A2EA19DD1D80F02D0054525F /* audioPlayer_2 */,
+				A2EA19F71D80F02D0054525F /* audioPlayer_2Tests */,
+				A2EA1A021D80F02D0054525F /* audioPlayer_2UITests */,
+				A2EA19DC1D80F02D0054525F /* Products */,
+				7E6818021E3F5AC27D3854EF /* Pods */,
+				18D9EC52627AC6BBD894D5AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A2EA19DC1D80F02D0054525F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2EA19DB1D80F02D0054525F /* audioPlayer_2.app */,
+				A2EA19F41D80F02D0054525F /* audioPlayer_2Tests.xctest */,
+				A2EA19FF1D80F02D0054525F /* audioPlayer_2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2EA19DD1D80F02D0054525F /* audioPlayer_2 */ = {
+			isa = PBXGroup;
+			children = (
+				A2EA229F1D824B9900A2C14B /* CDSideBarController */,
+				A2590B3E1D8124870096047E /* Controller */,
+				A2590B3F1D8124870096047E /* Model */,
+				A2590B401D8124870096047E /* View */,
+				A2EA19E11D80F02D0054525F /* AppDelegate.h */,
+				A2EA19E21D80F02D0054525F /* AppDelegate.m */,
+				A2EA19E71D80F02D0054525F /* Main.storyboard */,
+				A2EA19EA1D80F02D0054525F /* Assets.xcassets */,
+				A2EA19EC1D80F02D0054525F /* LaunchScreen.storyboard */,
+				A2EA19EF1D80F02D0054525F /* Info.plist */,
+				A2EA19DE1D80F02D0054525F /* Supporting Files */,
+			);
+			path = audioPlayer_2;
+			sourceTree = "<group>";
+		};
+		A2EA19DE1D80F02D0054525F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2EA19DF1D80F02D0054525F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2EA19F71D80F02D0054525F /* audioPlayer_2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A2EA19F81D80F02D0054525F /* audioPlayer_2Tests.m */,
+				A2EA19FA1D80F02D0054525F /* Info.plist */,
+			);
+			path = audioPlayer_2Tests;
+			sourceTree = "<group>";
+		};
+		A2EA1A021D80F02D0054525F /* audioPlayer_2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2EA1A031D80F02D0054525F /* audioPlayer_2UITests.m */,
+				A2EA1A051D80F02D0054525F /* Info.plist */,
+			);
+			path = audioPlayer_2UITests;
+			sourceTree = "<group>";
+		};
+		A2EA229F1D824B9900A2C14B /* CDSideBarController */ = {
+			isa = PBXGroup;
+			children = (
+				A2EA22A01D824B9900A2C14B /* CDSideBarController.h */,
+				A2EA22A11D824B9900A2C14B /* CDSideBarController.m */,
+			);
+			path = CDSideBarController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2EA19DA1D80F02D0054525F /* audioPlayer_2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2EA1A081D80F02D0054525F /* Build configuration list for PBXNativeTarget "audioPlayer_2" */;
+			buildPhases = (
+				3FC025768C4FE496DD13846C /* [CP] Check Pods Manifest.lock */,
+				A2EA19D71D80F02D0054525F /* Sources */,
+				A2EA19D81D80F02D0054525F /* Frameworks */,
+				A2EA19D91D80F02D0054525F /* Resources */,
+				7AB16FC1246DD9B15552C90A /* [CP] Embed Pods Frameworks */,
+				A1D2A48E83A57965F6B4D4EE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = audioPlayer_2;
+			productName = audioPlayer_2;
+			productReference = A2EA19DB1D80F02D0054525F /* audioPlayer_2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2EA19F31D80F02D0054525F /* audioPlayer_2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2EA1A0B1D80F02D0054525F /* Build configuration list for PBXNativeTarget "audioPlayer_2Tests" */;
+			buildPhases = (
+				A2EA19F01D80F02D0054525F /* Sources */,
+				A2EA19F11D80F02D0054525F /* Frameworks */,
+				A2EA19F21D80F02D0054525F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2EA19F61D80F02D0054525F /* PBXTargetDependency */,
+			);
+			name = audioPlayer_2Tests;
+			productName = audioPlayer_2Tests;
+			productReference = A2EA19F41D80F02D0054525F /* audioPlayer_2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2EA19FE1D80F02D0054525F /* audioPlayer_2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2EA1A0E1D80F02D0054525F /* Build configuration list for PBXNativeTarget "audioPlayer_2UITests" */;
+			buildPhases = (
+				A2EA19FB1D80F02D0054525F /* Sources */,
+				A2EA19FC1D80F02D0054525F /* Frameworks */,
+				A2EA19FD1D80F02D0054525F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2EA1A011D80F02D0054525F /* PBXTargetDependency */,
+			);
+			name = audioPlayer_2UITests;
+			productName = audioPlayer_2UITests;
+			productReference = A2EA19FF1D80F02D0054525F /* audioPlayer_2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2EA19D31D80F02D0054525F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ICE;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = yhl;
+				TargetAttributes = {
+					A2EA19DA1D80F02D0054525F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = CW255Y9TUD;
+					};
+					A2EA19F31D80F02D0054525F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A2EA19DA1D80F02D0054525F;
+					};
+					A2EA19FE1D80F02D0054525F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A2EA19DA1D80F02D0054525F;
+					};
+				};
+			};
+			buildConfigurationList = A2EA19D61D80F02D0054525F /* Build configuration list for PBXProject "audioPlayer_2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2EA19D21D80F02D0054525F;
+			productRefGroup = A2EA19DC1D80F02D0054525F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2EA19DA1D80F02D0054525F /* audioPlayer_2 */,
+				A2EA19F31D80F02D0054525F /* audioPlayer_2Tests */,
+				A2EA19FE1D80F02D0054525F /* audioPlayer_2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2EA19D91D80F02D0054525F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2EA19EE1D80F02D0054525F /* LaunchScreen.storyboard in Resources */,
+				A2EA19EB1D80F02D0054525F /* Assets.xcassets in Resources */,
+				A2EA19E91D80F02D0054525F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EA19F21D80F02D0054525F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EA19FD1D80F02D0054525F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FC025768C4FE496DD13846C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7AB16FC1246DD9B15552C90A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-audioPlayer_2/Pods-audioPlayer_2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1D2A48E83A57965F6B4D4EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-audioPlayer_2/Pods-audioPlayer_2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2EA19D71D80F02D0054525F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2EA19E61D80F02D0054525F /* ICEPlayViewController.m in Sources */,
+				A2EA19E31D80F02D0054525F /* AppDelegate.m in Sources */,
+				A2EA22A51D824EDD00A2C14B /* ICEsideTabBarController.m in Sources */,
+				A2EA22A21D824B9900A2C14B /* CDSideBarController.m in Sources */,
+				A2EA19E01D80F02D0054525F /* main.m in Sources */,
+				A2EA22A81D824FFE00A2C14B /* ICEChannelListController.m in Sources */,
+				A2EA22AB1D8277E400A2C14B /* ICEStyleVO.m in Sources */,
+				A2590B431D8124DF0096047E /* ICESongVO.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EA19F01D80F02D0054525F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2EA19F91D80F02D0054525F /* audioPlayer_2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2EA19FB1D80F02D0054525F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2EA1A041D80F02D0054525F /* audioPlayer_2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2EA19F61D80F02D0054525F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2EA19DA1D80F02D0054525F /* audioPlayer_2 */;
+			targetProxy = A2EA19F51D80F02D0054525F /* PBXContainerItemProxy */;
+		};
+		A2EA1A011D80F02D0054525F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2EA19DA1D80F02D0054525F /* audioPlayer_2 */;
+			targetProxy = A2EA1A001D80F02D0054525F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2EA19E71D80F02D0054525F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2EA19E81D80F02D0054525F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2EA19EC1D80F02D0054525F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2EA19ED1D80F02D0054525F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2EA1A061D80F02D0054525F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2EA1A071D80F02D0054525F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2EA1A091D80F02D0054525F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B18E613B798B54FA72017E41 /* Pods-audioPlayer_2.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = audioPlayer_2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yhl.www.audioPlayer-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2EA1A0A1D80F02D0054525F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A648B20B64288785A5FF1677 /* Pods-audioPlayer_2.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = audioPlayer_2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yhl.www.audioPlayer-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A2EA1A0C1D80F02D0054525F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = audioPlayer_2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yhl.www.audioPlayer-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/audioPlayer_2.app/audioPlayer_2";
+			};
+			name = Debug;
+		};
+		A2EA1A0D1D80F02D0054525F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = audioPlayer_2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yhl.www.audioPlayer-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/audioPlayer_2.app/audioPlayer_2";
+			};
+			name = Release;
+		};
+		A2EA1A0F1D80F02D0054525F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = audioPlayer_2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yhl.www.audioPlayer-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = audioPlayer_2;
+			};
+			name = Debug;
+		};
+		A2EA1A101D80F02D0054525F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = audioPlayer_2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yhl.www.audioPlayer-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = audioPlayer_2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2EA19D61D80F02D0054525F /* Build configuration list for PBXProject "audioPlayer_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2EA1A061D80F02D0054525F /* Debug */,
+				A2EA1A071D80F02D0054525F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2EA1A081D80F02D0054525F /* Build configuration list for PBXNativeTarget "audioPlayer_2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2EA1A091D80F02D0054525F /* Debug */,
+				A2EA1A0A1D80F02D0054525F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2EA1A0B1D80F02D0054525F /* Build configuration list for PBXNativeTarget "audioPlayer_2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2EA1A0C1D80F02D0054525F /* Debug */,
+				A2EA1A0D1D80F02D0054525F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2EA1A0E1D80F02D0054525F /* Build configuration list for PBXNativeTarget "audioPlayer_2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2EA1A0F1D80F02D0054525F /* Debug */,
+				A2EA1A101D80F02D0054525F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2EA19D31D80F02D0054525F /* Project object */;
+}
